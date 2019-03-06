@@ -38,6 +38,6 @@ choco feature enable -n=allowGlobalConfirmation;
 ,"hyper" 
 ,"typora"
 ,"hackfont"
-,"adobereader") + ($pins = @("vscode","jetbrainstoolbox", "docker-for-windows")) | % { choco install $_ };
+,"adobereader") + ($pins = @("vscode","jetbrainstoolbox", "docker-desktop")) | % { choco install $_ };
 
 <# avoiding future upgrades of these following programs. #> $pins | % { choco pin add -n="$_" }; 
