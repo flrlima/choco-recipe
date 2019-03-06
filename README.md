@@ -1,6 +1,8 @@
 # choco-install 
 
-This repository contains an installation script for all the applications I need in my daily work. I'm using [Chocolatey](https://chocolatey.org) which is a package manager and allows you install applications easily from the command line, and scripting all turned out to be an obvious and lazy choice.
+[![Build status](https://ci.appveyor.com/api/projects/status/sli76aallhvlthm1?svg=true)](https://ci.appveyor.com/project/paulalves/choco-install)
+
+This repository contains a script to install the applications I need in my daily work. I'm using [Chocolatey](https://chocolatey.org) which is a package manager and allows you install applications easily from the command line, and scripting all turned out to be an obvious and lazy choice.
 
 You must open PowerShell in administrator mode and run the following command: 
 
@@ -9,7 +11,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.We
 ```
 Full list of packages that will be installed:
 
-| Package Name                                           | Highlights _from chocolatey.org_ |
+| Package Name                                           | Highlights _(from chocolatey.org)_ |
 | ------------------------------------------------------ | ---------------------------- |
 | [git](https://chocolatey.org/packages/git)             | Git for Windows focuses on offering a lightweight, native set of tools that bring the full feature set of the Git SCM to Windows while providing appropriate user interfaces for experienced Git users and novices alike. |
 | [jdk11](https://chocolatey.org/packages/jdk11) | The Java Development Kit (JDK) is a software development environment used for developing Java applications and applets. It includes the Java Runtime Environment (JRE), an interpreter/loader (Java), a compiler (javac), an archiver (jar), a documentation generator (Javadoc) and other tools needed in Java development. |
