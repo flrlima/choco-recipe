@@ -45,6 +45,10 @@ choco feature enable -n=allowGlobalConfirmation;
 ,"openssh"
 ,"ngrok"
 ,"sed"
-,"awk") + ($pins = @("vscode","jetbrainstoolbox", "docker-desktop", "github-desktop")) | % { choco install $_ };
+,"awk"
+,"ack"
+,"golang"
+,"python"
+,"nodejs-lts") + ($pins = @("vscode","jetbrainstoolbox", "docker-desktop", "github-desktop")) | % { choco install $_ };
 
 <# avoiding future upgrades of these following programs. #> $pins | % { choco pin add -n="$_" }; 
