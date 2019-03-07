@@ -7,7 +7,7 @@ This repository contains a script to install the applications I need in my daily
 You must open PowerShell in administrator mode and run the following command: 
 
 ```powershell
-Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/paulalves/choco-install/master/Install.ps1'))
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/paulalves/choco-recipe/master/Install.ps1'))
 ```
 Full list of packages that will be installed:
 
