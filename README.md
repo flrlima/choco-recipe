@@ -1,4 +1,4 @@
-# choco-install 
+# choco-recipe 
 
 [![Build status](https://ci.appveyor.com/api/projects/status/sli76aallhvlthm1?svg=true)](https://ci.appveyor.com/project/paulalves/choco-install)
 
