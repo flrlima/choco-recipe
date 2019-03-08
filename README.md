@@ -13,6 +13,8 @@ Full list of packages that will be installed:
 
 | Package Name                                           | Highlights _(from chocolatey.org)_ |
 | ------------------------------------------------------ | ---------------------------- |
+| [kubernetes-kompose](https://chocolatey.org/packages/kubernetes-kompose) |  Kompose is a conversion tool for Docker Compose to container orchestrators such as Kubernetes (or OpenShift). |
+| [openshift-cli](https://chocolatey.org/packages/openshift-cli) | OpenShift Origin is a distribution of Kubernetes optimized for continuous application development and multi-tenant deployment. |
 | [ack](https://chocolatey.org/packages/ack) | ack is a tool like grep, optimized for programmers Designed for programmers with large heterogeneous trees of source code, ack is written purely in portable Perl 5 and takes advantage of the power of Perl's regular expressions |
 | [golang](https://chocolatey.org/packages/golang) | Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the mostout of multicore and networked machines, while its novel type system enables flexible and modular program construction. | 
 | [python](https://chocolatey.org/packages/python) | Python is a programming language that lets you work more quickly and integrate your systems more effectively. You can learn to use Python and see almost immediate gains in productivity and lower maintenance costs. |
