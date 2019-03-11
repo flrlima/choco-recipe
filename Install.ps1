@@ -51,6 +51,9 @@ choco feature enable -n=allowGlobalConfirmation;
 ,"python"
 ,"nodejs-lts"
 ,"kubernetes-kompose"
-,"openshift-cli") + ($pins = @("vscode","jetbrainstoolbox", "docker-desktop", "github-desktop")) | % { choco install $_ };
+,"openshift-cli"
+,"postman"
+,"notepadplusplus"
+,"winrar") + ($pins = @("vscode","jetbrainstoolbox", "docker-desktop", "github-desktop")) | % { choco install $_ };
 
 <# avoiding future upgrades of these following programs. #> $pins | % { choco pin add -n="$_" }; 
