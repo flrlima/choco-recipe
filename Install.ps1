@@ -29,7 +29,7 @@ choco feature enable -n=allowGlobalConfirmation;
 ,"nuget.commandline"
 ,"dotnetcore-runtime"
 ,"dotnetcore-windowshosting"
-,"visualstudio2017buildtools"
+,"visualstudio2019buildtools"
 ,"aspnetcore-runtimepackagestore"
 ,"sql-server-management-studio"
 ,"7zip"
